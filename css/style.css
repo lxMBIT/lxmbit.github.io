@@ -1,11 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
-/*
-	Directive by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-/* Basic */
+
 
 html, body {
     height: 100%;
@@ -531,12 +526,14 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
     overflow: hidden;
     position: relative;
     width: 50%;
+        border-radius: 5%;
 }
 .feature .image img {
     display: block;
     min-height: 100%;
     min-width: 100%;
     position: absolute;
+
 }
 .feature:before {
     background: blue;
@@ -595,7 +592,7 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
     background-repeat: repeat-x, repeat, no-repeat;
     background-size: 3200px 460px, auto, cover;
     color: rgba(255, 255, 255, 0.8);
-    padding: 10em 0 20em 0;
+    padding: 10em 0 10em 0;
     position: relative;
     text-align: center;
 }
@@ -635,17 +632,17 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
     color: #544d55;
 }
 #header .logo {
-    background: black;
+    background: rgba(0, 0, 0, 0);
     border-radius: 10%;
     color: white;
     cursor: default;
     display: inline-block;
-    font-size: 4em;
-    height: 3em;
-    line-height: 4em;
-    margin: 0 0 0.75em 0;
+    font-size: 5em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 0 -0.5em 0;
     text-align: center;
-    width: 3em;
+    width: 2em;
 }
  svg {
     fill: currentColor;
