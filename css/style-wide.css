@@ -1,33 +1,26 @@
-
-	body, input, select, textarea {
-		font-size: 14pt;
-	}
-
-	h2 {
-		font-size: 1.5em;
-	}
-
-	h3 {
-		font-size: 1.25em;
-	}
-
+body, input, select, textarea {
+    font-size: 14pt;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.25em;
+}
 /* Section/Article */
 
-	header.major p {
-		font-size: 1.25em;
-	}
-
+header.major p {
+    font-size: 1.25em;
+}
 /* Header */
 
-	#header {
-		padding: 8em 0 16em 0;
-	}
-
-		#header h1 {
-			font-size: 2.25em;
-		}
-
-		#header p {
-			font-size: 1.25em;
-			line-height: 1.65em;
-		}
+#header {
+    padding: 8em 0 16em 0;
+}
+#header h1 {
+    font-size: 2.25em;
+}
+#header p {
+    font-size: 1.25em;
+    line-height: 1.65em;
+}
