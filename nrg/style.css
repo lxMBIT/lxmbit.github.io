@@ -1,6 +1,4 @@
-html, body {
-    height: 100%;
-}
+html, body {}
 
 body {
     background: radial-gradient(ellipse at center, #fff 0%, #888 100%);
