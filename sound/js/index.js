@@ -118,7 +118,7 @@
         },
         onEnd: function(item, x, y){
           a = $({x:x, y:y}).animate({x:0, y:0},{
-            duration: 3000,
+            duration: 2000,
             easing: 'elastic',
             step: function(now, fx){
               o1.frequency.value = getFreq(fx.elem.x, fx.elem.y);
